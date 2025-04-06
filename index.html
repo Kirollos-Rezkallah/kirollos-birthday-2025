@@ -76,7 +76,8 @@
       <section>
         <div class="wishes-form">
           <h2>Leave Your Birthday Wish</h2>
-          <form name="friends-wishes" netlify>
+          <form name="friends-wishes" netlify netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="friends-wishes" />
             <div class="form-group">
               <input type="text" id="name" name="name" required />
               <label for="name">Your Name</label>
