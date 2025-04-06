@@ -19,7 +19,7 @@ async function updateDonationProgress() {
 
     // Find the donation amount element
     const moneyElement = doc.querySelector(".Money-module__money_UZBbh");
-    console.log(moneyElement);
+
     if (!moneyElement)
       throw new Error("Could not find donation amount element");
 
