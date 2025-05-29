@@ -45,7 +45,7 @@ async function updateDonationProgress() {
     console.error("Error updating donation progress:", error);
     // Fallback to show something is wrong
     document.querySelector(".progress-text").textContent =
-      "47% funded (7,000 ₽)";
+      "63% funded (9 500 ₽)";
   }
 }
 
